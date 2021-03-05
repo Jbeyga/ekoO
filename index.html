@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AJAX - Fetch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="searchForm">
+    <form >
+      <label>Szukaj po nazwisko: <input id="lastNameSearch" type="text"></label>
+      <!-- <label>Wiek: od <input id="ageMin" type="number" min="1" max="120"></label>
+      <label>do <input id="ageMax" type="number" min="1" max="120"></label> -->
+      <input id="searchBtn" type="submit" value="Szukaj">
+      <!-- <input id="reset1" type="submit" value="Reset"> -->
+    </form>
+  </div>
+
+<div class="container"></div>
+ 
+ <div class="addUser">
+   <p>Dodaj Użytkowinika</p>
+  <form >
+    <label>Imię: <input id="firstName" name="firstName" type="text"></label><br>
+    <label>Nazwisko: <input id="lastName" name="lastName" type="text"></label><br>
+    <label>Kod pocztowy: <input id="postalCode" name="postalCode" type="text"></label><br>
+    <label> Ulica: <input id="street" name="street" type="text"></label><br>
+    <label>City: <input id="city" name="city" type="text"></label><br>
+    <label>Wiek: <input id="age" name="age" type="number"></label><br>
+    <input id="addUserBtn" type="submit" value="Dodaj">
+   </form>
+ </div>
+ 
+ 
+  <script src="main.js"></script>
+  <script src="fetchAdd.js"></script>
+</body>
+</html>

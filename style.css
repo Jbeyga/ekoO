@@ -1,0 +1,111 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.searchForm {
+  text-align: center;
+  border: 1px solid red;
+  padding: 20px 0 20px 0;
+  margin: 20px;
+}
+
+.container {
+  text-align: center;
+  border: 1px solid red;
+  padding: 0px 0 40px 0;
+  margin: 20px;
+}
+
+form {
+  font-size: 15px;
+}
+
+input {
+  margin: 10px 0 10px 0;
+  padding: 5px 5px 5px 5px;
+  color: rgb(57, 63, 66);
+  border: 1px solid black;
+}
+
+/* USER DIV */
+
+.user {
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0 10px;
+}
+
+.user:nth-child(even) {
+  background-color: rgb(241, 215, 215);
+}
+
+.user__first {
+  min-width: 15%;
+  text-align: left;
+  padding: 0 10px 0 10px;
+}
+
+.user__last {
+  min-width: 15%;
+  text-align: left;
+  padding: 0 10px 0 10px;
+}
+
+.user__postal {
+  min-width: 10%;
+  text-align: left;
+  padding: 0 10px 0 10px;
+}
+
+.user__street {
+  min-width: 17%;
+  text-align: left;
+  padding: 0 10px 0 10px;
+}
+
+
+.user__city {
+  min-width: 15%;
+  text-align: left;
+  padding: 0 10px 0 10px;
+}
+
+.user__age {
+  min-width: 10%;
+  text-align: center;
+  /* font-weight: bold; */
+}
+
+.user__id {
+  min-width: 10%;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* DIV ADDUSER */
+
+.addUser {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(195, 93, 93);
+  padding: 0px 20px 20px 20px;
+}
+
+.addUser p {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#addUserBtn {
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;
+  color: rgb(57, 63, 66);
+  cursor: pointer;
+}
